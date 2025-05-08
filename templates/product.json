@@ -184,7 +184,7 @@
         "button_label": "",
         "button_link": "",
         "swipe_on_mobile": false,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-3",
         "columns_mobile": "1",
         "padding_top": 36,
         "padding_bottom": 36
@@ -196,7 +196,7 @@
         "heading": "You may also like",
         "heading_size": "h2",
         "columns_desktop": 4,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-3",
         "image_ratio": "square",
         "show_secondary_image": true,
         "show_vendor": false,

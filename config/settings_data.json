@@ -4,7 +4,7 @@
     "Default": {
       "logo_width": 90,
       "color_schemes": {
-        "scheme-1": {
+        "scheme-3": {
           "settings": {
             "background": "#FFFFFF",
             "background_gradient": "",
@@ -174,13 +174,13 @@
         "main-password-header": {
           "type": "main-password-header",
           "settings": {
-            "color_scheme": "scheme-1"
+            "color_scheme": "scheme-3"
           }
         },
         "main-password-footer": {
           "type": "main-password-footer",
           "settings": {
-            "color_scheme": "scheme-1"
+            "color_scheme": "scheme-3"
           }
         }
       }

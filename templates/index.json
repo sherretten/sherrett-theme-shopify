@@ -35,7 +35,7 @@
         "collection": "all",
         "products_to_show": 5,
         "columns_desktop": 5,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-3",
         "show_view_all": false,
         "swipe_on_mobile": false,
         "image_ratio": "adapt",
@@ -84,7 +84,7 @@
 				"text-3",
       ],
       "settings": {
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-3",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 0
