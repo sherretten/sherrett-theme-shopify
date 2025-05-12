@@ -44,56 +44,79 @@
         "show_rating": false,
         "columns_mobile": "2",
         "padding_top": 8,
-        "padding_bottom": 8
+        "padding_bottom": 8,
+				"full_width": true
       }
     },
-		"rich_text": {
-      "type": "rich-text",
+		"about_me_section": {
+      "type": "multicolumn",
       "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "About Me & Photos for Great Causes",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-						"text": "<p>Exploring the outdoors has been a huge part of my life since I was a young boy – something that I now get to do with my wife and two boys. For us, the best part of our outdoor adventures are the things we see when we're out there that make us say, \"Whoa! Cool!\" Sometimes those moments come from views of awesome landscapes. Sometimes they happen because we find a tiny tree frog hiding in plain sight.</p>"
-          }
-        },
-				"text-2": {
-					"type": "text",
-					"settings":{
-						"text": "<p>Because we never know what we might see, I’m always armed and ready with my camera. Sometimes capturing the \"Whoa! Cool!\" moment is easy. Stand and shoot. Sometimes, things get precarious, and I fall into a cactus while desperately attempting to get a mega close-up shot of a lizard. Regardless of what it takes to get the shot, I’m always reminded of how awesome it is that every photograph out there in nature captures a unique second in time.</p>"
-					},
+				"column-0": {
+					"type": "column",
+					"settings": {
+						"type": "image-picker",
+						"id": "family-image",
+						"label": "Family Photo"
+					}
 				},
-				"text-3": {
-					"type": "text",
-					"settings":{
-						"text": "<p>Beyond the enjoyment it gives me and my family, I also wanted to use my photography to make an impact beyond \"Whoa! Cool!\" Because of that, I’ve set up my photography business a little differently than others. 80% of proceeds from sales go directly to support small, local, not-for-profit charity organizations that focus on the environment so those small organizations can have big impact and we all can keep having \"Whoa! Cool!\" nature experiences.<br></br>I feel good about that. Hope you do, too.</p>"
-					},
+				"column-1": {
+					"type": "column",
+					"settings": {
+						"title": "About Me & Photos for Great Causes",
+						"text": "<p>Exploring the outdoors has been a huge part of my life since I was a young boy – something that I now get to do with my wife and two boys. For us, the best part of our outdoor adventures are the things we see when we're out there that make us say, \"Whoa! Cool!\" Sometimes those moments come from views of awesome landscapes. Sometimes they happen because we find a tiny tree frog hiding in plain sight.\n\nBecause we never know what we might see, I’m always armed and ready with my camera. Sometimes capturing the \"Whoa! Cool!\" moment is easy. Stand and shoot. Sometimes, things get precarious, and I fall into a cactus while desperately attempting to get a mega close-up shot of a lizard. Regardless of what it takes to get the shot, I’m always reminded of how awesome it is that every photograph out there in nature captures a unique second in time.\n\nBeyond the enjoyment it gives me and my family, I also wanted to use my photography to make an impact beyond \"Whoa! Cool!\" Because of that, I’ve set up my photography business a little differently than others. 80% of proceeds from sales go directly to support small, local, not-for-profit charity organizations that focus on the environment so those small organizations can have big impact and we all can keep having \"Whoa! Cool!\" nature experiences.<br></br>I feel good about that. Hope you do, too.</p>",
+						"link_label": "",
+						"link": ""
+					}
+				}
+			},
+			"block_order": [
+				"column-0",
+				"column-1"
+			],
+			"settings": {
+				"title": "",
+				"heading_size": "h1",
+				"image_width": "full",
+				"image_ratio": "adapt",
+				"columns_desktop": 2,
+				"column_alignment": "left",
+				"background_style": "none",
+				"button_label": "",
+				"button_link": "",
+				"swipe_on_mobile": false,
+				"color_scheme": "scheme-3",
+				"columns_mobile": "1",
+				"padding_top": 36,
+				"padding_bottom": 36
+			}
+		},
+		"how_it_works": {
+			"type": "rich-text",
+			"blocks": {
+				"heading": {
+					"type": "heading",
+					"settings": {
+						"heading": "How It Works",
+						"heading_size": "h1"
+					}
 				},
-				
-      },
-      "block_order": [
-        "heading",
-        "text",
-				"text-2",
-				"text-3",
-      ],
-      "settings": {
-        "color_scheme": "scheme-3",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
+				 "text": {
+					"type":"text",
+					"settings":{
+						"text": "<p>First, I only do digital. Why only digital? No printing. No packaging. No shipping. Easier. Less expensive. Better for the environment.\n\nAll you have to do is find a photograph you like that makes you say, \"Whoa! Cool!\" You’ll notice something else. Everything is priced at one cent. My dad always told me not to undervalue my work, but there is a method to the madness. You decide what you’d like to pay for the photograph. You set your price, and once you do that, just select the not-for-profit you’d like 80% of the proceeds to support. Click \"pay\", and you’re done.\n\nYour digital photo is available right away. And you’ve made a contribution to a small, local not-for-profit that you may not have known about. That’s it.\n\nHappy shopping… and giving!</p>"
+					},
+			},
+		},
+		"block_order": [
+			"heading",
+			"text"
+		],
   },
-  "order": [
-    "image_banner",
-    "featured_collection",
-    "rich_text",
-  ]
+},
+"order": [
+	"image_banner",
+	"featured_collection",
+	"about_me_section",
+	"how_it_works"
+],
 }
