@@ -136,6 +136,13 @@
       }
     },
     "content_for_index": [],
+    "blocks": {
+      "16995509235526261550": {
+        "type": "shopify://apps/pay-what-you-want-pwyw/blocks/price_field/4602dfde-80fc-4978-ac64-142e9fea304a",
+        "disabled": false,
+        "settings": {}
+      }
+    },
     "color_schemes": {
       "scheme-3": {
         "settings": {
