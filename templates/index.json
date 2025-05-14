@@ -24,6 +24,7 @@
         "heading"
       ],
       "settings": {
+        "image": "shopify://shop_images/BullfrogStaringContest.jpg",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "image_behavior": "none",
@@ -39,7 +40,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "collection": "all",
+        "collection": "hidden-homepage-featured-items",
         "products_to_show": 5,
         "title": "",
         "heading_size": "h2",
@@ -52,7 +53,7 @@
         "show_view_all": false,
         "view_all_style": "solid",
         "color_scheme": "scheme-3",
-        "image_ratio": "adapt",
+        "image_ratio": "square",
         "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
@@ -70,7 +71,7 @@
         "column-0": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/young-female-models-denim_925x_cc053daa-5686-48f2-9aa6-5b2e716d7344.jpg",
+            "image": "shopify://shop_images/JamesFamily.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -81,7 +82,7 @@
           "type": "column",
           "settings": {
             "title": "About Me & Photos for Great Causes",
-            "text": "<p>Exploring the outdoors has been a huge part of my life since I was a young boy – something that I now get to do with my wife and two boys. For us, the best part of our outdoor adventures are the things we see when we're out there that make us say, \"Whoa! Cool!\" Sometimes those moments come from views of awesome landscapes. Sometimes they happen because we find a tiny tree frog hiding in plain sight.\n\nBecause we never know what we might see, I’m always armed and ready with my camera. Sometimes capturing the \"Whoa! Cool!\" moment is easy. Stand and shoot. Sometimes, things get precarious, and I fall into a cactus while desperately attempting to get a mega close-up shot of a lizard. Regardless of what it takes to get the shot, I’m always reminded of how awesome it is that every photograph out there in nature captures a unique second in time.\n\nBeyond the enjoyment it gives me and my family, I also wanted to use my photography to make an impact beyond \"Whoa! Cool!\" Because of that, I’ve set up my photography business a little differently than others. 80% of proceeds from sales go directly to support small, local, not-for-profit charity organizations that focus on the environment so those small organizations can have big impact and we all can keep having \"Whoa! Cool!\" nature experiences.<br></br>I feel good about that. Hope you do, too.</p>",
+            "text": "<p>Exploring the outdoors has been a huge part of my life since I was a young boy – something that I now get to do with my wife and two boys. For us, the best part of our outdoor adventures are the things we see when we're out there that make us say, \"Whoa! Cool!\" Sometimes those moments come from views of awesome landscapes. Sometimes they happen because we find a tiny tree frog hiding in plain sight.<br/><br/>Because we never know what we might see, I’m always armed and ready with my camera. Sometimes capturing the \"Whoa! Cool!\" moment is easy. Stand and shoot. Sometimes, things get precarious, and I fall into a cactus while desperately attempting to get a mega close-up shot of a lizard. Regardless of what it takes to get the shot, I’m always reminded of how awesome it is that every photograph out there in nature captures a unique second in time.<br/><br/>Beyond the enjoyment it gives me and my family, I also wanted to use my photography to make an impact beyond \"Whoa! Cool!\" Because of that, I’ve set up my photography business a little differently than others. 80% of proceeds from sales go directly to support small, local, not-for-profit charity organizations that focus on the environment so those small organizations can have big impact and we all can keep having \"Whoa! Cool!\" nature experiences.<br/><br/>I feel good about that. Hope you do, too.</p>",
             "link_label": "",
             "link": ""
           }
@@ -95,7 +96,7 @@
         "title": "",
         "heading_size": "h1",
         "image_width": "full",
-        "image_ratio": "adapt",
+        "image_ratio": "portrait",
         "button_label": "",
         "button_link": "",
         "columns_desktop": 2,
