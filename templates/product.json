@@ -56,6 +56,7 @@
       "block_order": [
         "title",
         "caption",
+				"cause",
         "price",
         "variant_picker",
         "buy_buttons",
