@@ -246,6 +246,7 @@
                                 data-quantity-variant-id="{{ item.variant.id }}"
                                 type="number"
                                 name="updates[]"
+                                disabled
                                 value="{{ item.quantity }}"
                                 {% # theme-check-disable %}
                                 data-cart-quantity="{{ cart | item_count_for_variant: item.variant.id }}"
