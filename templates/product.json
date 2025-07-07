@@ -28,6 +28,12 @@
           "disabled": true,
           "settings": {}
         },
+				"cause": {
+					"type": "text",
+					"settings":{
+						"text": "Set your price, and once you do that, just select the not-for-profit you’d like 80% of the proceeds to support"
+					}
+				},
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
