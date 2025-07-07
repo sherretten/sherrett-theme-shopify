@@ -31,7 +31,7 @@
 				"cause": {
 					"type": "text",
 					"settings":{
-						"text": "Set your price, and once you do that, just select the not-for-profit you’d like 80% of the proceeds to support"
+						"text": "Remember to choose the price you'd like to pay and to whom you'd like to make your donation. 80% goes to them, 20% goes to keeping this site up and running. Thanks!"
 					}
 				},
         "variant_picker": {
